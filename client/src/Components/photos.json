@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+    "title": "Mountain Landscape",
+    "photographer": "John Doe",
+    "tags": ["nature", "mountain", "landscape"]
+  },
+  {
+    "id": 2,
+    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop",
+    "title": "Ocean Waves",
+    "photographer": "Jane Smith",
+    "tags": ["ocean", "waves", "nature"]
+  },
+  {
+    "id": 3,
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop",
+    "title": "Forest Path",
+    "photographer": "Mike Johnson",
+    "tags": ["forest", "nature", "path"]
+  },
+  {
+    "id": 4,
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    "title": "Sunset Vista",
+    "photographer": "Sarah Wilson",
+    "tags": ["sunset", "sky", "landscape"]
+  },
+  {
+    "id": 5,
+    "url": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=400&h=300&fit=crop",
+    "title": "City Lights",
+    "photographer": "Alex Brown",
+    "tags": ["city", "night", "urban"]
+  },
+  {
+    "id": 6,
+    "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&h=300&fit=crop",
+    "title": "Desert Dunes",
+    "photographer": "Emma Davis",
+    "tags": ["desert", "sand", "landscape"]
+  },
+  {
+    "id": 7,
+    "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop",
+    "title": "Misty Lake",
+    "photographer": "Tom Wilson",
+    "tags": ["lake", "mist", "nature"]
+  },
+  {
+    "id": 8,
+    "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop",
+    "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=300&fit=crop",
+    "title": "Starry Night",
+    "photographer": "Lisa Garcia",
+    "tags": ["stars", "night", "sky"]
+  },
+  {
+    "id": 9,
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&v=1",
+    "title": "Snowy Peaks",
+    "photographer": "John Doe Jr.",
+    "tags": ["snow", "mountain", "winter"]
+  },
+  {
+    "id": 10,
+    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop&v=1",
+    "title": "Seaside Cliffs",
+    "photographer": "Jane Smith Jr.",
+    "tags": ["sea", "cliffs", "coast"]
+  },
+  {
+    "id": 11,
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&v=1",
+    "title": "Woodland Stream",
+    "photographer": "Mike Johnson Jr.",
+    "tags": ["stream", "forest", "water"]
+  },
+  {
+    "id": 12,
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop&v=1",
+    "title": "Golden Horizon",
+    "photographer": "Sarah Wilson Jr.",
+    "tags": ["horizon", "sunset", "gold"]
+  },
+  {
+    "id": 13,
+    "url": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=400&h=300&fit=crop&v=1",
+    "title": "Urban Skyline",
+    "photographer": "Alex Brown Jr.",
+    "tags": ["skyline", "city", "urban"]
+  },
+  {
+    "id": 14,
+    "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&h=300&fit=crop&v=1",
+    "title": "Sandy Desert",
+    "photographer": "Emma Davis Jr.",
+    "tags": ["sand", "desert", "arid"]
+  },
+  {
+    "id": 15,
+    "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=300&fit=crop&v=1",
+    "title": "Foggy Lake",
+    "photographer": "Tom Wilson Jr.",
+    "tags": ["fog", "lake", "mystery"]
+  },
+  {
+    "id": 16,
+    "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop&v=1",
+    "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=300&fit=crop&v=1",
+    "title": "Milky Way",
+    "photographer": "Lisa Garcia Jr.",
+    "tags": ["milkyway", "stars", "night"]
+  },
+  {
+    "id": 17,
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&v=2",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&v=2",
+    "title": "Alpine Meadow",
+    "photographer": "John Doe III",
+    "tags": ["meadow", "alpine", "nature"]
+  },
+  {
+    "id": 18,
+    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop&v=2",
+    "thumbnail": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop&v=2",
+    "title": "Coral Reef",
+    "photographer": "Jane Smith III",
+    "tags": ["reef", "ocean", "underwater"]
+  },
+  {
+    "id": 19,
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&v=2",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&v=2",
+    "title": "Autumn Woods",
+    "photographer": "Mike Johnson III",
+    "tags": ["autumn", "forest", "fall"]
+  },
+  {
+    "id": 20,
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&v=2",
+    "thumbnail": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop&v=2",
+    "title": "Dawn Sky",
+    "photographer": "Sarah Wilson III",
+    "tags": ["dawn", "sky", "morning"]
+  }
+]
