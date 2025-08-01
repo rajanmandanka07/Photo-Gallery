@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import photosData from './photos.json';
 import GalleryHeader from './GalleryHeader';
 import PhotoCard from './PhotoCard';
 import PhotoModal from './PhotoModal';
@@ -13,13 +12,37 @@ const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [favorites, setFavorites] = useState(new Set());
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    setTimeout(() => {
-      setPhotos(photosData);
-      setFilteredPhotos(photosData);
-      setLoading(false);
-    }, 1000);
+    const fetchPhotos = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('http://localhost:3000/api/photos');
+        const result = await response.json();
+
+        if (!result.success) {
+          throw new Error(result.error || 'Failed to fetch photos');
+        }
+
+        const transformedPhotos = result.data.photos.map((photo, index) => ({
+          id: index + 1,
+          url: `http://localhost:3000${photo.url}`,
+          thumbnail: `http://localhost:3000${photo.url}`,
+          title: photo.name.split('.')[0]
+        }));
+
+        setPhotos(transformedPhotos);
+        setFilteredPhotos(transformedPhotos);
+      } catch (err) {
+        console.error('Error fetching photos:', err);
+        setError('Failed to load photos. Please try again later.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPhotos();
   }, []);
 
   useEffect(() => {
@@ -69,6 +92,16 @@ const PhotoGallery = () => {
         <div className="text-center">
           <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-400 mx-auto mb-4"></div>
           <p className="text-gray-200 text-lg font-medium">Loading Gallery...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-950 flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-red-400 text-lg font-medium">{error}</p>
         </div>
       </div>
     );
