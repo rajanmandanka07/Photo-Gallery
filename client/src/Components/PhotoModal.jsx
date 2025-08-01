@@ -80,7 +80,11 @@ const PhotoModal = ({ photo, onClose, onNavigate, favorites, toggleFavorite }) =
           <img
             src={photo.url || photo.thumbnail}
             alt={photo.title}
-            className="max-w-full max-h-full object-contain"
+            className="max-w-full max-h-full object-contain min-w-[50%] min-h-[50%]"
+            style={{
+              minWidth: 'min(50vw, 600px)',
+              minHeight: 'min(50vh, 400px)'
+            }}
           />
 
           {/* Navigation buttons */}
