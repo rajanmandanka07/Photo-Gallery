@@ -1,5 +1,5 @@
 {
-  "name": "my-gallary",
+  "name": "viewer",
   "version": "1.0.0",
   "description": "Backend for photo gallery app",
   "main": "server.js",

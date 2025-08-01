@@ -5,7 +5,7 @@ const GalleryHeader = ({ searchTerm, setSearchTerm }) => (
     <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-0">
         <h1 className="text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent tracking-tight text-center sm:text-left">
-          Photo Gallery
+          Viewer
         </h1>
         <div className="relative w-full sm:w-auto">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4 sm:w-5 sm:h-5" />
